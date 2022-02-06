@@ -2,7 +2,7 @@ server:
   port: 8084
   
 token:
-  secret: secrettoken
+  secret: newTokenSecret
 
 eureka:
   client:
