@@ -6,7 +6,7 @@ spring:
     password: '{cipher}db30d101af0aeee60bcd43f0efe35b651392f383b487ebdb75fa3e8d32288380'
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     generate-ddl: true
     show-sql: true
   datasource:
