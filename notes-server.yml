@@ -11,7 +11,7 @@ spring:
     show-sql: true
   datasource:
     url: jdbc:postgresql://localhost:3306/notes_db
-    username: postgres
+    username: '{cipher}5ba7b97b7f9389045bb21c4c1df31ba8681d83abd073c7e0ebb7888507a597c2'
     password: '{cipher}5ba7b97b7f9389045bb21c4c1df31ba8681d83abd073c7e0ebb7888507a597c2'
 resilience4j:
   circuitbreaker:
