@@ -7,7 +7,7 @@ token:
 eureka:
   client:
     sevice-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://172.31.27.127:8761/eureka
   instance:
     prefer-ip-address: true
 
